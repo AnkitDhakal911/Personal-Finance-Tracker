@@ -6,17 +6,9 @@ A full-stack web application for tracking personal finances, built with the MERN
 
 - User authentication (register, login, profile management)
 - Track income and expenses
-- Categorize transactions
 - Set and track savings goals
-- Visualize spending patterns with charts
-- Role-based access (User and Admin)
 - Responsive design with Tailwind CSS
 
-## Prerequisites
-
-- Node.js (v14 or higher)
-- MongoDB (local or Atlas)
-- npm or yarn
 
 ## Setup
 
@@ -104,11 +96,6 @@ personal-finance-tracker/
 - PUT `/api/transactions/:id` - Update transaction
 - DELETE `/api/transactions/:id` - Delete transaction
 
-### Categories
-- GET `/api/categories` - Get all categories
-- POST `/api/categories` - Create category
-- PUT `/api/categories/:id` - Update category
-- DELETE `/api/categories/:id` - Delete category
 
 ### Goals
 - GET `/api/goals` - Get all goals
